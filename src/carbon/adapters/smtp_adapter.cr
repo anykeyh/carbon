@@ -39,7 +39,7 @@ class Carbon::SMTPAdapter < Carbon::Adapter
 
     email.headers.each do |key, value|
       if key == "Reply-To"
-        output.reply_to "value"
+        output.reply_to value
       else
         output.custom_header key, value
       end
