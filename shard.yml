@@ -12,7 +12,7 @@ dependencies:
   habitat:
     github: luckyframework/habitat
   email:
-    github: anykeyh/crystal-email
+    github: arcage/crystal-email
     branch: master
 
 development_dependencies:
